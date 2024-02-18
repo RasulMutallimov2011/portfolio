@@ -1,0 +1,191 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Revalia", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+
+}
+
+body {
+    font-family: Roboto;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.wrapper {
+    min-width: 100%;
+}
+
+.hero {
+    background: rgb(255, 255, 255);
+    padding-top: 56px;
+
+}
+
+.container {
+    max-width: 1106px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 162px;
+}
+
+.hero-title {
+    margin-bottom: 50px;
+}
+
+
+.wrapper {}
+
+.hero {}
+
+.container {}
+
+.header {}
+
+.logo {
+    width: 96px;
+    height: 60px;
+}
+
+.header__logo {}
+
+.logo__img {}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 42px;
+}
+
+.nav__item {}
+
+.nav__link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 10%;
+}
+
+
+
+.hero__content {
+    display: flex;
+    padding: bottom 146px;
+}
+
+.hero__img-wrap {
+    width: 50%;
+    text-align: center;
+}
+
+.hero__img {}
+
+.hero__desc {
+    max-width: 540px;
+}
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 48px;
+    color: #000;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 16;
+    line-height: 164%;
+    color: #727272;
+    text-align: center;
+}
+
+.hero__subtitle {
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.btn-wrap {}
+
+.btn {
+    background: #34547a;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    padding: 25px 40px;
+    text-transform: uppercase;
+}
+
+.about {
+    padding-top: 119px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+
+.about__content {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.section-title {
+
+    font-weight: 500;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+
+.subtitle {}
+
+.achievements {}
+
+.achievements__list {}
+
+.achievements__item {}
+
+.achievment {}
+
+.achievements__icon {}
+
+.achievment__desc {}
+
+.achievment__count {}
+
+.achievment__text {}
